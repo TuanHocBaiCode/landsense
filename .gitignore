@@ -1,0 +1,39 @@
+# Local datasets and training artifacts
+/dataset/
+/data/
+/results_local/
+/results/
+/models/
+/checkpoints/
+/diagnostics/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.zip
+*.tar
+*.tar.gz
+
+# Personal working notebook and machine-specific guide
+/LandSense_Local.ipynb
+/HUONG_DAN_WINDOWS.md
+/start_jupyter.cmd
+
+# Python and notebook caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Credentials and local settings
+.env
+.env.*
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

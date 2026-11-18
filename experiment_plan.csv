@@ -1,0 +1,10 @@
+experiment_id,model,strategy,input,channels,research_question
+E01,cnn,scratch,rgb,3,RQ1_RQ3
+E02,cnn,scratch,rgbndvi,4,RQ1_RQ3
+E03,cnn,scratch,ms,13,RQ1_RQ3
+E04,resnet50,frozen,rgb,3,RQ1_RQ2_RQ3
+E05,resnet50,frozen,rgbndvi,4,RQ1_RQ2_RQ3
+E06,resnet50,frozen,ms,13,RQ1_RQ2_RQ3
+E07,resnet50,finetune,rgb,3,RQ1_RQ2_RQ3
+E08,resnet50,finetune,rgbndvi,4,RQ1_RQ2_RQ3
+E09,resnet50,finetune,ms,13,RQ1_RQ2_RQ3
